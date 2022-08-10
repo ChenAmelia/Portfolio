@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Dancing+Script&family=Roboto&display=swap");
+html {
+  background-color: #333333;
+}
+
+* {
+  margin: 30px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cormorant";
+  color: #333333;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+nav,
+nav * {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+}
+
+nav {
+  justify-content: space-between;
+  width: 100%;
+  height: 60px;
+  background-color: #333333;
+}
+
+#name {
+  font-family: "Cormorant";
+  color: #D9BEA5;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 120%;
+  width: 30%;
+}
+
+#nav-links {
+  height: 0vh;
+  background-color: #333333;
+  display: flex;
+  justify-content: flex-end;
+  width: 60%;
+  align-items: center;
+  padding: 30px;
+}
+
+.about {
+  font-family: "Cormorant";
+  color: #FFFFFF;
+  font-size: 12px;
+}
+
+.protfolio {
+  font-family: "Cormorant";
+  color: #FFFFFF;
+  font-size: 12px;
+}
+
+.contact {
+  font-family: "Cormorant";
+  color: #FFFFFF;
+  font-size: 12px;
+}
+
+#title {
+  font-family: "Cormorant";
+  color: #FFFFFF;
+  font-size: 50px;
+  font-weight: 100;
+  width: 600px;
+  height: 50px;
+  top: 180px;
+  text-align: left;
+}
+
+main {
+  text-align: left;
+}
+main p {
+  font-family: "Cormorant";
+  color: #FFFFFF;
+  font-size: 12px;
+  line-height: 150%;
+  width: 270px;
+  height: 120px;
+}
+
+#portfolio {
+  font-family: "Cormorant";
+  color: #FFFFFF;
+  font-weight: 100;
+  font-size: 30px;
+}
+
+.card-portfolio img {
+  width: 300px;
+  height: auto;
+  margin: 0px;
+}
+
+.card-portfolio {
+  width: min-content;
+  height: min-content;
+  border: 0px;
+  border-radius: 0px;
+  margin: 5px;
+  text-align: left;
+  background-color: #333333;
+  color: #FFFFFF;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
+
+.card-portfolio:hover {
+  opacity: 1;
+}
+
+h3 {
+  text-decoration: none;
+  font-family: "Cormorant";
+  color: #FFFFFF;
+  font-weight: 10;
+  font-size: 20px;
+  margin: 5px;
+}
+
+.card-about {
+  width: 900px;
+  height: min-content;
+  border-radius: 0px;
+  margin: 80px;
+  text-align: left;
+  background-color: #333333;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 80px;
+  padding-top: 0px;
+  margin: 30px;
+  margin-top: 0px;
+}
+
+h5 {
+  font-family: "Cormorant";
+  color: #FFFFFF;
+  font-weight: 10;
+  font-size: 30px;
+  margin-top: 40px;
+  margin-bottom: 10PX;
+  padding: 80px;
+  padding-bottom: 0px;
+}
+
+h4 {
+  text-decoration: none;
+  font-family: "Cormorant";
+  color: #FFFFFF;
+  font-weight: 10;
+  font-size: 15px;
+  margin: 0px;
+  line-height: 150%;
+  width: 450px;
+}
+
+.card-about img {
+  width: 300px;
+  height: auto;
+}
+
+.card-get-in-touch {
+  width: 900px;
+  height: min-content;
+  text-align: center;
+}
+.card-get-in-touch h1 {
+  font-family: "Cormorant";
+  color: #FFFFFF;
+  font-size: 50px;
+  font-weight: 10;
+  padding: 20px;
+}
+.card-get-in-touch #button {
+  font-family: "Cormorant";
+  color: #FFFFFF;
+  text-align: center;
+  width: 30px;
+  background-color: #333333;
+  border: solid 1px #D9BEA5;
+  padding: 15px 60px;
+  border-radius: 0px;
+  color: #FFFFFF;
+}
+
+main div {
+  width: 33%;
+  height: 100px;
+  display: inline-block;
+}
+
+@media screen and (max-width: 768px) {
+  main div {
+    width: 100%;
+  }
+}
