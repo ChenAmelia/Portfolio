@@ -1,34 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Dancing+Script&family=Roboto&display=swap");
-.nav {
-  display: flex;
-  align-items: center;
-  width: auto;
-  height: 60px;
-  background-color: #333333;
-  padding-right: 0px;
-}
-.nav__name {
-  font-family: "Cormorant";
-  color: #D9BEA5;
-  font-size: 30px;
-  font-weight: 100;
-  line-height: 120%;
-  width: 50%;
-  justify-content: flex-start;
-  margin: 0px;
-}
-.nav__links {
-  margin-right: 0px;
-  height: 0vh;
-  background-color: #333333;
-  color: #FFFFFF;
-  font-size: 15px;
-  display: flex;
-  width: 50%;
-  align-items: center;
-  padding: 30px;
-}
-
 html {
   background-color: #333333;
 }
@@ -71,6 +41,8 @@ a:visited {
   font-size: 12px;
   line-height: 150%;
   width: 350px;
+  height: -webkit-min-content;
+  height: -moz-min-content;
   height: min-content;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -105,7 +77,11 @@ a:visited {
   margin: 0px;
 }
 .card__portfolio {
+  width: -webkit-min-content;
+  width: -moz-min-content;
   width: min-content;
+  height: -webkit-min-content;
+  height: -moz-min-content;
   height: min-content;
   border: 0px;
   border-radius: 0px;
@@ -126,6 +102,7 @@ a:visited {
   font-weight: 10;
   font-size: 20px;
   margin: 5px;
+  margin-left: 30px;
 }
 
 .experience {
@@ -175,6 +152,8 @@ a:visited {
 
 .about {
   width: 900px;
+  height: -webkit-min-content;
+  height: -moz-min-content;
   height: min-content;
   border-radius: 0px;
   margin: 80px;
@@ -236,4 +215,4 @@ main div {
   main div {
     width: 100%;
   }
-}
+}/*# sourceMappingURL=style.css.map */
