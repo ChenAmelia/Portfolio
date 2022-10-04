@@ -25,6 +25,38 @@ a:visited {
     text-decoration: none;
 }
 
+.nav {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+   
+    &__name {
+        font-family: $font-display;
+        color: $color-primary;
+        font-size: 30px;
+        
+    }
+
+    &__links {
+        display: flex;
+        color: $color-white;
+        justify-content:space-between;
+        align-items: flex-end;
+        
+    }
+
+    &__links--text {
+        font-family: $font-display;
+        color: $color-white;
+        font-size: 20px;
+        margin-left: 100px;
+        margin-right: 10px;
+
+    }
+}
+
+
 
 
 .title {
